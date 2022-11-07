@@ -1,0 +1,69 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Spline Sans", san-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #f58d17;
+}
+
+img {
+  min-width: 100%;
+}
+
+/* BTN */
+.btn {
+  border-radius: 0;
+  padding: 14px 38px;
+}
+
+.btn-brand {
+  color: white;
+  font-weight: 500;
+  border-color: #f58d17;
+  background-color: #f58d17;
+}
+
+.btn-brand:hover {
+  color: white;
+  border-color: #d37810;
+  background-color: #d37810;
+}
+
+/* SLIDER */
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../webp/cover1.webp);
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../webp/cover2.webp);
+}
