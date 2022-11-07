@@ -41,6 +41,10 @@ img {
   padding-bottom: 120px;
 }
 
+.section-title p {
+  max-width: 50%;
+}
+
 /* BTN */
 .btn {
   border-radius: 0;
