@@ -1,6 +1,9 @@
 /* FONT */
 @import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap");
 
+/* VARIABLE */
+
+/* RESET*/
 body {
   font-family: "Spline Sans", san-serif;
   color: #777;
@@ -29,7 +32,13 @@ a:hover {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
+}
+
+/* HELPER */
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* BTN */
@@ -66,4 +75,31 @@ img {
 .slide-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../webp/cover2.webp);
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+/* ABOUT */
+#about .divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #f58d17;
 }

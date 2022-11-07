@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-white shadow py-3">
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img src="./assets/images/Qrispy_dark.svg" alt="" />
@@ -65,11 +65,7 @@
     </nav>
 
     <!-- HERO -->
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item text-center bg-cover vh-100 slide-1 active">
           <div
@@ -79,9 +75,9 @@
               <div class="col-lg-8 text-center">
                 <h6 class="text-white">WELCOME TO QRISPY</h6>
                 <h1 class="display-1 fw-bold text-white">
-                  Char-grilled and flavor-filled
+                  Char-grilled & flavor-filled
                 </h1>
-                <a href="#" class="btn btn-brand">Reservation</a>
+                <a href="#" class="btn btn-brand mt-4">Reservation</a>
               </div>
             </div>
           </div>
@@ -94,7 +90,7 @@
               <div class="col-lg-8 text-center">
                 <h6 class="text-white">WELCOME TO QRISPY</h6>
                 <h1 class="display-1 fw-bold text-white">Fresh & Tasty Food</h1>
-                <a href="#" class="btn btn-brand">Book a Table</a>
+                <a href="#" class="btn btn-brand mt-4">Book a Table</a>
               </div>
             </div>
           </div>
@@ -104,7 +100,7 @@
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleControls"
+        data-bs-target="#heroSlider"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -113,13 +109,38 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleControls"
+        data-bs-target="#heroSlider"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row gy-5 align-items-center justify-content-between">
+          <div class="col-lg-5">
+            <img src="./assets/webp/about_new.webp" alt="" loading="lazy" />
+          </div>
+          <div class="col-lg-6">
+            <h2>About Us</h2>
+            <div class="divider my-4"></div>
+            <p class="fw-semibold">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur doloremque maxime tenetur ea autem, dolore esse.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quod
+              distinctio placeat accusantium laborum, ullam odio reprehenderit
+              cupiditate itaque adipisci minus nihil.
+            </p>
+            <a href="#" class="btn btn-brand">Explore Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- SCRIPT -->
     <!-- Script Bootstrap -->
